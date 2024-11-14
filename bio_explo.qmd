@@ -1,0 +1,94 @@
+---
+title: "Étude de l'obésité - Exploration"
+author: "___"
+date: "`r Sys.Date()`"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+editor: visual
+lang: fr
+---
+
+```{r setup, include=FALSE}
+SciViews::R(lang = "fr")
+```
+
+<!--# Cette balise est un commentaire.-->
+
+<!--% Cette balise est une consigne.-->
+
+<!--# Ce document est un carnet de notes. Il est par conséquent moins formel qu'un rapport. Vous pouvez structurer vos interprétations sous la forme de liste. -->
+
+# Exploration des données
+
+<!-- Importez le tableau `biometry.rds`-->
+
+```{r import}
+biometry <- 
+```
+
+<!-- Pour chaque étudiant, réalisez un graphique et un tableau résumant les observations. Tous les tableaux et graphiques doivent être interprétés. Si un remaniement des données est nécessaire pour arriver au résultat, faites-le dans le même chunk en utilisant un autre nom pour le tableau modifié (ne modifez pas le tableau `biometry` original). -->
+
+```{r plot1}
+
+```
+
+<!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
+
+```{r tab1}
+
+```
+
+<!--% Interprétez le tableau ci-dessus en 1 à 3 phrases. -->
+
+```{r plot2}
+
+```
+
+<!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
+
+```{r tab2}
+
+```
+
+<!--% Interprétez le tableau ci-dessus en 1 à 3 phrases. -->
+
+```{r plot3}
+
+```
+
+<!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
+
+```{r tab3}
+
+```
+
+<!--% Interprétez le tableau ci-dessus en 1 à 3 phrases. -->
+
+```{r plot4}
+
+```
+
+<!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
+
+```{r tab4}
+
+```
+
+<!--% Interprétez le tableau ci-dessus en 1 à 3 phrases. -->
+
+<!--% Si une équipe est constituée de cinq personnes, la dernière rempli les chunks suivants, sinon, vous pouvez les effacer du document. -->
+
+```{r plot5}
+
+```
+
+<!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
+
+```{r tab5}
+
+```
+
+<!--% Interprétez le tableau ci-dessus en 1 à 3 phrases. -->
