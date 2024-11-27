@@ -1,5 +1,5 @@
 # Étude de l'obésité - Importation et remaniement des données
-# Auteur : 
+# Auteurs : 
 # Date :
 ###############################################################################
 
@@ -8,7 +8,7 @@ SciViews::R()
 
 # Importation des données brutes
 
-## Création des dossier `data/` et `cache/`
+## Création du dossier `data/cache/`
 fs::dir_create("data/cache")
 
 ## Importation du dictionnaire des données
@@ -28,7 +28,7 @@ biometry <- read$csv(
 # Modification des types de variables
 
 
-# Correction, filtre, sélection sur le tableau des données
+# Correction, filtrage, sélection sur le tableau des données
 
 
 # Ajout des labels et des unités

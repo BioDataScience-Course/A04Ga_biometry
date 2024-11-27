@@ -21,12 +21,14 @@ SciViews::R(lang = "fr")
 
 <!--# Ce document est un carnet de notes. Il est par conséquent moins formel qu'un rapport. Vous pouvez structurer vos interprétations sous la forme de liste. -->
 
+<!--% Le remplissage de ce document Quarto est totalement optionel et ne sera pas coté. Si vous avez du temps, vous pouvez déjà explorer les données et cela vous avancera pour le travail à réaliser durant le second quadrimestre. Sinon, laissez ce document tel quel. -->
+
 # Exploration des données
 
-<!-- Importez le tableau `biometry.rds`-->
+<!-- Importez le tableau `biometry.rds` dans la variable `biometry`. -->
 
 ```{r import}
-biometry <- 
+
 ```
 
 <!-- Pour chaque étudiant, réalisez un graphique et un tableau résumant les observations. Tous les tableaux et graphiques doivent être interprétés. Si un remaniement des données est nécessaire pour arriver au résultat, faites-le dans le même chunk en utilisant un autre nom pour le tableau modifié (ne modifez pas le tableau `biometry` original). -->
@@ -37,7 +39,7 @@ biometry <-
 
 <!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
 
-```{r tab1}
+```{r tab1, warning=FALSE}
 
 ```
 
@@ -49,7 +51,7 @@ biometry <-
 
 <!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
 
-```{r tab2}
+```{r tab2, warning=FALSE}
 
 ```
 
@@ -61,7 +63,7 @@ biometry <-
 
 <!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
 
-```{r tab3}
+```{r tab3, warning=FALSE}
 
 ```
 
@@ -73,7 +75,7 @@ biometry <-
 
 <!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
 
-```{r tab4}
+```{r tab4, warning=FALSE}
 
 ```
 
@@ -87,7 +89,7 @@ biometry <-
 
 <!--% Interprétez le graphique ci-dessus en 1 à 3 phrases. -->
 
-```{r tab5}
+```{r tab5, warning=FALSE}
 
 ```
 
