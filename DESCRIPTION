@@ -12,7 +12,7 @@ Authors@R: c(
     comment = c(ORCID = "0000-0002-2694-9471"))
   )
 Depends: R (>= 4.3.0)
-SystemRequirements: SciViews Box 2024 (https://www.sciviews.org/software/svbox/)
+SystemRequirements: SciViews Box 2025 (https://www.sciviews.org/software/svbox/)
 License: CC BY-NC-SA 4.0
 URL: https://github.com/BioDataScience-Course/A04Ga_biometry
 BugReports: https://github.com/BioDataScience-Course/A04Ga_biometry/issues

@@ -4,7 +4,7 @@ Ce projet nécessite d'avoir assimilé l'ensemble des notions des cinq premiers 
 
 ## Objectifs
 
-Ce projet est à réaliser par groupe de quatre étudiants, avec la partie définition du protocole et collecte des données commune à toute la classe. Il doit vous permettre de démontrer les compétences suivantes :
+Ce projet est à réaliser par groupe de quatre étudiants, avec la partie définition du protocole et collecte des données commune à toute la classe. Il doit vous permettre de démontrer les compétences suivantes :
 
 -   définir un protocole d'expérience
 -   collecter des données et les encoder correctement
