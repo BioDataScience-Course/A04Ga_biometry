@@ -34,19 +34,19 @@ Vous allez définir un protocole permettant de pseudonymiser les données. Ensui
 
 Cliquez sur le lien suivant pour accéder à Google Sheet et complétez le dictionnaire des données. Ce document est collectif pour l'ensemble des étudiants du cours de Science des données I.
 
-<https://docs.google.com/spreadsheets/d/1FyvoJtKkdvf5uwSASZhl_EkhzYR5033Yi2vdEnYMgFQ/edit?usp=sharing>
+<https://docs.google.com/spreadsheets/d/1yf_iFifBtycjPu0G67hd68jUjWi0QTtt1xxRawOYAFA/edit?usp=sharing>
 
 Cliquez sur le lien suivant pour accéder à un second Google Sheet et compléter le tableau de données associé à votre expérience. L'encodage des observations n'est pas une tâche à prendre à la légère. Soyez particulièrement attentif à ne pas commettre d'erreur et à respecter le dictionnaire des données défini ci-dessus.
 
-<https://docs.google.com/spreadsheets/d/1UbaVJZzkCBAcusqWYkIZqYZoi3OSCXc89JXkA_vVDhc/edit?usp=sharing>
+<https://docs.google.com/spreadsheets/d/1ZjsWs0M0EKIoxI5pGyoeuLh5WL3OBnIM5xAF6PJ-d6M/edit?usp=sharing>
 
 ### Phase 3 (module 5)
 
 Le dictionnaire et le tableau de données peuvent être directement importés dans R avec `read$csv()` et les liens suivants :
 
--   Dictionnaire des données : <https://docs.google.com/spreadsheets/d/e/2PACX-1vQ14kFDtlqxUqJpfKIcZRHA2i3ZnCwSdT_bqcx7BWp3hk_fqEGk9JmBvRsHvdBZrI3KCACV-LHQ-tAv/pub?gid=0&single=true&output=csv>
+-   Dictionnaire des données : <https://docs.google.com/spreadsheets/d/e/2PACX-1vS09O5K562SrsVbi7-Ap4ASnQuS7P10AMVuQ1kGrISfFhWMMM_WlCY1-EErhGqdpXIKAjmY7W3mZgo1/pub?gid=0&single=true&output=csv>
 
--   Tableau de données : <https://docs.google.com/spreadsheets/d/e/2PACX-1vTTvgkHmrxPXHJ16cypzK7ooBhcSybscjBMc0obVSt1dvxlNL9rtage91lKD8Jec-3n4eX_6O-VdW7f/pub?gid=0&single=true&output=csv>
+-   Tableau de données : <https://docs.google.com/spreadsheets/d/e/2PACX-1vT2UjU4ScS1cm0Khk7xuTdiJNMYrrx4TugMSosQAjqkIuvFEDyugYmJ5CU3RCrAfyUgh68v6B3IihWI/pub?gid=0&single=true&output=csv>
 
 Dans le script `R/import_tidy.R`, importez, remaniez, ajoutez les labels et les unités et enfin, sauvegardez localement vos données nettoyées dans le dossier `data/` et nommez le fichier `biometry.rds` (`biometry_metadata.rds` pour le dictionnaire des données).
 
