@@ -9,6 +9,8 @@ format:
     toc: true
 editor: visual
 lang: fr
+svbox: 2026
+vm: "Ubuntu 24.04.3 LTS"
 ---
 
 ```{r setup, include=FALSE}
@@ -22,6 +24,24 @@ SciViews::R(lang = "fr")
 <!--# Ce document est un carnet de notes. Il est par conséquent moins formel qu'un rapport. Vous pouvez structurer vos interprétations sous la forme de liste. -->
 
 <!--% Le remplissage de ce document Quarto est totalement optionel et ne sera pas coté. Si vous avez du temps, vous pouvez déjà explorer les données et cela vous avancera pour le travail à réaliser durant le second quadrimestre. Sinon, laissez ce document tel quel. -->
+
+# Introduction
+
+<!--% Rédigez une courte introduction de 2 ou 3 phrases sur l'obésité et l'indice de masse corporelle (IMC), puis une phrase qui précise le but de cette exploration. -->
+
+...Introduction et but...
+
+# Matériel et méthodes
+
+Les données ont été collectées par l'ensemble des étudiants du cours de Science des données I selon un protocole commun, puis pseudonymisées et encodées dans un tableau partagé, accompagné de son dictionnaire des données. Elles ont été importées, remaniées, labellisées et sauvegardées à l'aide du script `R/import_tidy.R`.
+
+L'analyse est réalisée dans la [SciViews Box `r rmarkdown::metadata$svbox`](https://www.sciviews.org/software/svbox/) dans [Saturn Cloud](https://saturncloud.io) (`r rmarkdown::metadata$vm`) avec le [logiciel R](https://www.r-project.org) (`r R.version.string`). Le package {chart} version `r packageVersion("chart")` est utilisé pour réaliser les graphiques.
+
+## Déclaration sur l'utilisation de l'IA
+
+<!--% Précisez si vous avez employé l'intelligence artificielle dans votre projet et, le cas échéant, l'utilisation que vous en avez faite (citez le modèle utilisé). -->
+
+...Déclaration sur l'utilisation de l'IA...
 
 # Exploration des données
 

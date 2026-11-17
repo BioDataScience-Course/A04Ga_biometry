@@ -1,6 +1,11 @@
 # Étude de l'obésité - Importation et remaniement des données
 # Auteurs : 
 # Date :
+#
+# Déclaration sur l'utilisation de l'IA :
+# Précisez si vous avez employé l'intelligence artificielle dans ce projet et,
+# le cas échéant, l'utilisation que vous en avez faite (citez le modèle utilisé).
+# ...
 ###############################################################################
 
 # Packages utiles
